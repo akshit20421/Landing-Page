@@ -1,7 +1,8 @@
-import Navbar from './components/navbar/Navbar'
+import Hero from './components/heroSection/Hero'
+import "./styles.css"
 const App = () => {
   return (
-   <Navbar/>
+   <Hero/>
   )
 }
 

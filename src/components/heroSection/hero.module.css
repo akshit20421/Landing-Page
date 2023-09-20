@@ -1,0 +1,28 @@
+.background {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url("../../assets/hero3.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.background .headHero {
+    padding: 0 179px 0 164px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.background .headHero h1 {
+    font-size: 64px;
+    color: #fff;
+    width: 600px;
+    font-weight: 600;
+    position: absolute;
+    padding-top: 155px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
