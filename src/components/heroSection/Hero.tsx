@@ -9,6 +9,7 @@ const Hero = () => {
       <div className={styles.headHero}>
         <h1>Meet Destiny, the visionary landing Page.</h1>
       <p>Re-targeting your audience with competitive intelligence embedded in Destiny. See it in action and then believe.</p>
+      <button>WATCH INTRO</button>
       </div></div>
   )
 }
