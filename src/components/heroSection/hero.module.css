@@ -14,6 +14,8 @@
     display: flex;
     flex-direction: column;
     width: 60%;
+    position: absolute;
+    top: 100px
 }
 
 .background .headHero h1 {
