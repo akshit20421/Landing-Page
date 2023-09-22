@@ -1,5 +1,78 @@
 .serviceSector {
     width: 100%;
-    height: 95vh;
+    height: 94vh;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serviceSector h1 {
+    padding-top: 100px;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+
+.paraService {
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.serviceFeature {
+    display: flex;
+    width: 82%;
+    justify-content: center;
+}
+
+.serviceF1,
+.serviceF2,
+.serviceF3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 33.333%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.serviceF1 img,
+.serviceF2 img,
+.serviceF3 img {
+    width: 60px;
+}
+
+.serviceF1 .borderImgServices,
+.serviceF2 .borderImgServices,
+.serviceF3 .borderImgServices {
+    width: 80px;
+    height: 80px;
+    background-color: #F6F6F6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    transition: border-color 0.5s ease;
+}
+
+.serviceF1 h2,
+.serviceF2 h2,
+.serviceF3 h2 {
+    font-size: 1.2rem;
+    padding: 15px 0;
+}
+
+.serviceF1 p,
+.serviceF2 p,
+.serviceF3 p {
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.serviceF1:hover .borderImgServices,
+.serviceF2:hover .borderImgServices,
+.serviceF3:hover .borderImgServices {
+    border: 2px solid #5924EC;
 }
