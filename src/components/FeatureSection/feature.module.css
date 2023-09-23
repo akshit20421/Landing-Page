@@ -1,0 +1,109 @@
+.featureMain {
+    width: 100%;
+    height: 170vh;
+    background: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+}
+
+.featureMain .feature1 {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    padding: 150px 130px 100px 130px;
+    gap: 280px
+}
+
+.featureMain .feature2 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 130px 100px 150px;
+    width: 100%;
+    gap: 280px
+}
+
+.featureMain .feature2 img {
+    position: relative;
+    right: 240px
+}
+
+.featureMain .feature1 img {
+    margin: 0 auto;
+    width: 160%;
+}
+
+.featureMain .feature2 img {
+    width: 160%;
+}
+
+.featureMain .feature1 p,
+.featureMain .feature2 p {
+    font-size: 0.9rem;
+}
+
+.featureMain .feature1 h1,
+.featureMain .feature2 h1 {
+    font-size: 2.38rem;
+    line-height: 1.2;
+}
+
+.featureMain .feature1 .dataFeature1,
+.featureMain .feature2 .dataFeature2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.featureMain .feature1 .dataFeature1 p {
+    font-size: 0.9rem;
+}
+
+.featureMain .feature1 .dataFeature1 .listFeature1 {
+    display: flex;
+    justify-content: center;
+}
+
+.featureMain .feature1 .dataFeature1 .bulletFeature1,
+.featureMain .feature2 .dataFeature2 .bulletFeature2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.bulletFeature1 .bulletFeature11,
+.bulletFeature1 .bulletFeature22,
+.bulletFeature1 .bulletFeature33,
+.bulletFeature2 .bulletFeature111,
+.bulletFeature2 .bulletFeature222,
+.bulletFeature2 .bulletFeature333 {
+    display: flex;
+    align-items: center;
+    gap: 6px
+}
+
+.bulletFeature1 .bulletFeature11 svg,
+.bulletFeature1 .bulletFeature22 svg,
+.bulletFeature1 .bulletFeature33 svg,
+.bulletFeature2 .bulletFeature111 svg,
+.bulletFeature2 .bulletFeature222 svg,
+.bulletFeature2 .bulletFeature333 svg {
+    width: 12px;
+    height: 12px;
+}
+
+.btnFeatureSection button {
+    height: 38px;
+    padding: 0 24px;
+    background-color: #5924EC;
+    color: #fff;
+    margin: 8px;
+    border: 2px solid #5924EC;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+
+.btnFeatureSection button:hover {
+    background-color: transparent;
+    color: #5924EC
+}
