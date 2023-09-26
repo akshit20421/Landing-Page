@@ -1,0 +1,64 @@
+.main {
+    height: 60vh;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.main .imgTestimonials img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.main .paraTestimonials {
+    text-align: center;
+}
+
+.main .paraTestimonials {
+    padding: 0 300px;
+    line-height: 1.5;
+}
+
+.main .paraTestimonials p {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.main .nameMain {
+    text-align: center;
+}
+
+.main .nameMain {
+    display: block;
+}
+
+.main .nameMain p {
+    font-size: 0.89rem;
+}
+
+.main .starMain span {
+    color: orange;
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+
+/* Slide in animation */
+
+.slide-in {
+    animation: slide-in 0.5s ease-in-out;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
