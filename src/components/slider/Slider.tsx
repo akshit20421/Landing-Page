@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import styles from './Slider.module.css'; // Import your slider styles
 import Review from '../review/Review';
 
@@ -23,6 +23,14 @@ const Slider = () => {
         'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
       imageSrc: 'src/assets/testimonial2.jpg',
     },
+    {
+        name: 'Alice',
+        company: 'CEO Marga Holdings',
+        rating: 5,
+        reviewText:
+          'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
+        imageSrc: 'src/assets/testimonial3.jpg',
+      }
     // Add more reviews here
   ];
 
