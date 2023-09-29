@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+
 import styles from "./detail.module.css"
 
 const Detail = () => {

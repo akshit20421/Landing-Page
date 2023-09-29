@@ -1,0 +1,102 @@
+.pricingMainSection {
+    height: 135vh;
+    width: 100%;
+    background: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0 0 0;
+    align-items: center;
+}
+
+.pricingMainSection h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.pricingMainSection p {
+    width: 32%;
+    text-align: center;
+    opacity: 0.7;
+    font-size: 0.89rem;
+    margin-bottom: 25px;
+}
+
+.pricingBoxes {
+    margin-top: 50px;
+    display: flex;
+    gap: 150px;
+}
+
+.pricingBoxes .pricingBox1,
+.pricingBoxes .pricingBox2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    height: 600px;
+    width: 400px;
+    background-color: #F3F3F3;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 50px;
+}
+
+.pricingBoxes .pricingBox1:hover,
+.pricingBoxes .pricingBox2:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pricingBoxes .pricingBox1 img,
+.pricingBoxes .pricingBox2 img {
+    width: 60px;
+    margin: 36px 0 0 0;
+    height: 60px;
+}
+
+.pricingBoxes .pricingBox1 h3,
+.pricingBoxes .pricingBox2 h3 {
+    color: #505050;
+    font-size: 1.2rem;
+    margin: 20px 0 5px;
+}
+
+.pricingBoxes .pricingBox1 h1,
+.pricingBoxes .pricingBox2 h1 {
+    color: #808080;
+}
+
+.pricingBoxes .pricingBox1 p,
+.pricingBoxes .pricingBox2 p {
+    font-size: 1rem;
+    width: 78%;
+}
+
+.pricingBoxes .pricingBox1 ul,
+.pricingBoxes .pricingBox2 ul {
+    font-size: 15px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.pricingBoxes .pricingBox1 ul li,
+.pricingBoxes .pricingBox2 ul li {
+    padding-top: 14px;
+    color: #505050;
+}
+
+.pricingBoxes .pricingBox1 button,
+.pricingBoxes .pricingBox2 button {
+    height: 38px;
+    padding: 0 24px;
+    background-color: #5924EC;
+    color: #fff;
+    margin: 45px 0 0 0;
+    border: 2px solid #5924EC;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+
+.pricingBoxes .pricingBox1 button:hover,
+.pricingBoxes .pricingBox2 button:hover {
+    background-color: transparent;
+    color: #5924EC
+}
