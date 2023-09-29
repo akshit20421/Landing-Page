@@ -7,6 +7,8 @@ import Featuring from './components/FeaturingSection2/Featuring'
 import Detail from './components/DetailSection/Detail'
 import Pricing from './components/PricingSection/Pricing'
 import LogoMain from './components/LogoSlider/LogoMain'
+import Waitlist from './components/WaitlistSection/Waitlist'
+import FooterSection from './components/footerSection/FooterSection'
 const App = () => {
   return (
     <>
@@ -18,6 +20,8 @@ const App = () => {
    <Detail/>
    <Pricing/>
    <LogoMain/>
+    <Waitlist/>
+    <FooterSection/>
    </>
   )
 }

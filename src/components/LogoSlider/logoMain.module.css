@@ -1,5 +1,55 @@
-.logoMainSection {
-    height: 30vh;
+.marqueeContainer {
+    height: 22vh;
     width: 100%;
     background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: marquee 10s linear infinite;
+    transform: translateX(100%);
+}
+
+.marqueeContainer img {
+    width: 240px;
+    height: 240px;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.logo:nth-child(1) {
+    animation: moveLogo 1s linear infinite, delayLogo 5s linear infinite;
+}
+
+.logo:nth-child(2) {
+    animation: moveLogo 1s linear infinite, delayLogo 10s linear infinite;
+}
+
+
+/* Add similar rules for each logo, adjusting the delay as needed */
+
+.logoMainSection:hover .marqueeContainer {
+    animation-play-state: paused;
+}
+
+@keyframes moveLogo {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes delayLogo {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
 }
