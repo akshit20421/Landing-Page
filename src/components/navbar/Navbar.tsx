@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <div className={styles.navbar}>
         <div className={styles.logo}>
-           <img src="src/assets/logo.png" alt="" />
+           <img src="/src/assets/logo.png" alt="" />
         </div>
         <div className={styles.selectNavbarOptions}>
               <ul>
