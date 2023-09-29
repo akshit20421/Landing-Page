@@ -1,5 +1,5 @@
 import  { useState, useEffect } from 'react';
-import styles from './Review.module.css';
+import styles from './review.module.css';
 
 interface Props {
   name: string;
