@@ -5,22 +5,22 @@ const LogoMain = () => {
     <div className={styles.logoMainSection}>
     <div className={styles.marqueeContainer}>
       <div className={styles.logo}>
-        <img src="/src/assets/logo1.png" alt="" />
+        <img src="/assets/logo1.png" alt="" />
       </div>
       <div className={styles.logo}>
-        <img src="/src/assets/logo2.png" alt="" />
+        <img src="/assets/logo2.png" alt="" />
       </div>
       <div className={styles.logo}>
-        <img src="/src/assets/logo3.png" alt="" />
+        <img src="/assets/logo3.png" alt="" />
       </div>
       <div className={styles.logo}>
-        <img src="/src/assets/logo4.png" alt="" />
+        <img src="/assets/logo4.png" alt="" />
       </div>
       <div className={styles.logo}>
-        <img src="/src/assets/logo6.png" alt="" />
+        <img src="/assets/logo6.png" alt="" />
       </div>
       <div className={styles.logo}>
-        <img src="/src/assets/logo7.png" alt="" />
+        <img src="/assets/logo7.png" alt="" />
       </div>
     </div>
   </div>

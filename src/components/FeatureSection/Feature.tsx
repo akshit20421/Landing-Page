@@ -5,7 +5,7 @@ const Feature = () => {
     <div className={styles.featureMain}>
         <div className={styles.feature1}>
          <div className={styles.imgFeature1}>
-             <img src="/src/assets/feature_1.png" alt="" />
+             <img src="/assets/feature_1.png" alt="" />
          </div>
          <div className={styles.dataFeature1}>
             <h1>Designed for Startups & brands.</h1>
@@ -32,7 +32,7 @@ const Feature = () => {
         <div className={styles.feature2}>
       
          <div className={styles.imgFeature1}>
-             <img src="/src/assets/feature_1.png" alt="" />
+             <img src="/assets/feature_1.png" alt="" />
          </div>
          <div className={styles.dataFeature2}>
             <h1>Designed for Startups & brands.</h1>

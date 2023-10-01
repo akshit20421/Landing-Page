@@ -13,7 +13,7 @@ const Slider = () => {
       rating: 5,
       reviewText:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
-      imageSrc: 'src/assets/testimonial1.jpg',
+      imageSrc: '/assets/testimonial1.jpg',
     },
     {
       name: 'Robert Hammer',
@@ -21,7 +21,7 @@ const Slider = () => {
       rating: 5,
       reviewText:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
-      imageSrc: 'src/assets/testimonial2.jpg',
+      imageSrc: '/assets/testimonial2.jpg',
     },
     {
         name: 'Alice',
@@ -29,7 +29,7 @@ const Slider = () => {
         rating: 5,
         reviewText:
           'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
-        imageSrc: 'src/assets/testimonial3.jpg',
+        imageSrc: '/assets/testimonial3.jpg',
       }
     // Add more reviews here
   ];
