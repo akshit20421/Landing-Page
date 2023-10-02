@@ -1,5 +1,5 @@
 .background {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url("../../assets/hero3.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url("../../../public/hero3.jpg");
     background-size: cover;
     height: 100vh;
     width: 100%;

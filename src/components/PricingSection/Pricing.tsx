@@ -7,7 +7,7 @@ const Pricing = () => {
 and players. Get the right plan that suits you.</p>
 <div className={styles.pricingBoxes}>
     <div className={styles.pricingBox1}>
-       <img src="/src/assets/cart2.png" alt="" />
+       <img src="public\cart2.png" alt="" />
        <h3>Beginner Plan</h3>
        <h1>$5.90</h1>
        <p>Pay little enjoy the product for life time.</p>
@@ -20,7 +20,7 @@ and players. Get the right plan that suits you.</p>
         <button>GET PLAN</button>
     </div>
     <div className={styles.pricingBox2}>
-        <img src="/src/assets/cart1.png" alt="" />
+        <img src="public\cart1.png" alt="" />
         <h3>Premium Plan</h3>
         <h1>$19.99</h1>
         <p>Pay only for what you use. Flexible payment options.</p>
